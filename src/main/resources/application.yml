@@ -1,0 +1,14 @@
+server:
+  port: 8082
+welcome:
+  message: Hello, Welcome to Sayu's project - department Application!!!
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: 1234
+    url: jdbc:mysql://localhost:3306/config
+    username: project
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
